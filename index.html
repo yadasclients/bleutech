@@ -47,14 +47,14 @@
     </style>
     <nav class="navbar navbar-expand-lg navbar-dark">
       <div class="container">
-        <a href="#" class="navbar-brand">QuizApp</a>
+        <a href="#" class="navbar-brand">Bleutech.org</a>
         <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navmenu">
           <span class="navbar-toggler-icon"></span>
         </button>
         <div class="collapse navbar-collapse" id="navmenu">
           <ul class="navbar-nav ms-auto">
             <li class="nav-item">
-              <a href="#AboutUS" class="nav-link">AboutUs</a>
+              <a href="https://twitter.com/yadazora" class="nav-link">AboutUs</a>
             </li>
           </ul>
         </div>
@@ -70,14 +70,14 @@
             </h1>
             <img class="img-fluid" src="me.jpg" alt="">
             <i class="fa fa-twitter">
-              <a href="https://twitter.com/thesageMalibu" class="link-light">pingme</a>
+              <a href="https://twitter.com/yadazora" class="link-light">pingme</a>
             </i>
           </div>
           <div class="ms-auto">
             <span class="text-primary h1">Hi</span>
             <span class="text-success h1">There</span>
             <hr>
-            <button type="button" class="btn btn-primary " id="take_quiz">This does nothing</button>
+            <button type="button" class="btn btn-primary " id="take_quiz">Under Construction</button>
           </div>
           <!-- Test Box -->
           <div class="ms-auto" id="test_box">
@@ -86,16 +86,12 @@
             </div>
             <div class="container">
               <div id="question-container" class="container">
-                <div id="question">Brief</div>
+                <div id="question">What to know</div>
                 <div id="answer-buttons" class="btn-grid">
-                  <p>The following site is under construction</p>
-                  <p>For assistance in reaching out the owner</p>
-                  <p>Use the contacts placed to ping me</p>
+                  To contact the owner of bleutech.org a Tech company. Ping for assistance.
                 </div>
               </div>
-              <div class="container">
-                <button id="next-btn" class="btn-primary btn hide">Next</button>
-              </div>
+              
               <div id="countdown"></div>
             </div>
           </div>
@@ -104,23 +100,6 @@
       </div>
     </section>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/js/bootstrap.bundle.min.js" integrity="sa384-gtEjrD/SeCtmISkJkNUaaKMoLD0//ElJ19smozuHV6z3Iehds+3Ulb9Bn9Plx0x4" crossorigin="ananymous"></script>
-    <script src="logic.js"></script>
-	<script>
-		var timeLeft = 60;
-		var elem = document.getElementById('countdown');
-		var timerId = setInterval(startGame, 1000);
-		function startGame() {
-		if (timeLeft == -1) {
-			clearTimeout(timerId);
-			document.write("You ran out of time, Refresh to start over")
-		} else {
-			elem.innerHTML = timeLeft + ' seconds remaining';
-			timeLeft--;
-		}
-		}
-		if (document.getElementById('next-btn').clicked == true) {
-        
-    }
-	</script>
+ 
   </body>
 </html>
